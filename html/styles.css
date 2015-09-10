@@ -1,0 +1,18 @@
+textarea {
+    height: 300px;
+    width:  650px;
+    min-width: 600px;
+    display: block;
+}
+
+#images {
+  float: clear;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  margin: 2px;
+  float: left;
+}
