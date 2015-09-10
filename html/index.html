@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Render Loader</title>
+<script src="./jquery-1.11.3.min.js" charset="utf-8"></script>
+<script>
+// http://stackoverflow.com/a/133997
+// http://stackoverflow.com/a/13038218
+// Post to the provided URL with the specified parameters.
+var count = 0;
+var idnum = 0;
+var testImage = {
+  'id': 'client',
+  'ambient': 0.1,
+  'gammaCorrection': 1/2.2,
+  'dim_x': 500,
+  'dim_y': 500,
+  'lightSource': {'x':-10,'y':0,'z':0},
+  'cameraPos': {'x':0,'y':0,'z':20},
+  'objects': [
+    { 'type':'sphere',
+      'center': {'x':-2,'y':0,'z':-10},
+      'radius': 2.0,
+      'colour': {'x':0,'y':255,'z':0}
+    },
+    { 'type':'sphere',
+      'center': {'x':2,'y':4,'z':-10},
+      'radius': 2.0,
+      'colour': {'x':150,'y':255,'z':150}
+    },
+    { 'type':'sphere',
+      'center': {'x':2,'y':0,'z':-10},
+      'radius': 2.5,
+      'colour': {'x':255,'y':0,'z':0}
+    },
+    { 'type':'sphere',
+      'center': {'x':0,'y':-4,'z':-10},
+      'radius': 3.0,
+      'colour': {'x':0,'y':0,'z':255}
+    },
+    { 'type':'plane',
+      'point': {'x':0,'y':0,'z':-12},
+      'normal': {'x':0,'y':0,'z':1},
+      'colour': {'x':255,'y':255,'z':255}
+    }
+  ],
+}
+
+function post(path, render) {
+    var form = $('<form></form>');
+    
+    var data = {}
+    data.id = count++;
+    data.render = render;
+    console.log('render: '+render);
+    
+    $.ajax({
+      type: 'POST',
+      url: path,
+      data: JSON.stringify(data),
+      success: function(res) {
+          console.log('POST success');
+          console.log(res);
+      },
+      dataType: 'json', 
+      timeout: 120000,
+      contentType: 'application/json; charset=UTF-8'
+    });
+}
+var minVal = 1;
+var maxVal = 3600;
+function clickButton() {
+  testImage.id = 'client'+count;
+  post('http://52.88.173.59/render',JSON.stringify(testImage));
+  
+}
+function renderExists() {
+  var id = 'client'+idnum;
+  
+  $.getJSON('/render/'+id);
+  
+ // xhr.onloadend = function() { /* done */ }
+  console.log('GET sent: /render '+id);
+}
+function nextID() {
+  idnum++;
+  $('#nextid').text('NextID '+idnum);
+}
+</script>
+</head>
+<body>
+<h1>Render loader</h1>
+<div id='submit'>
+  <button type='button' onclick='clickButton()'>Send</button>
+  <button type='button' onclick='renderExists()'>Check Image</button>
+  <button type='button' id='nextid' onclick='nextID()'>Next ID 0</button>
+</div>
+<div id='console'>
+
+</div>
+<div id='images'>
+
+</div>
+</body>
+</html>

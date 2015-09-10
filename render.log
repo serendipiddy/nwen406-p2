@@ -1,0 +1,110 @@
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects
+INFO:root:Render progress: COMPLETE
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects -- 2015-09-10
+INFO:root:Render progress: COMPLETE
+INFO:root:launching nodejs version
+INFO:root:launching nodejs version
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects -- 2015-09-10 11:06:35.028415
+INFO:root:Render progress: COMPLETE -- test_clientSend -- 2015-09-10 11:06:58.476249
+INFO:root:launching nodejs version
+INFO:root:launching nodejs version
+INFO:root:launching nodejs version
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN, 4 objects -- 2015-09-10 11:09:35.423969
+INFO:root:Render progress: COMPLETE -- client13 -- 2015-09-10 11:09:59.250153
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client14 -- 2015-09-10 11:13:08.698031 -- 4 objects 
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client15 -- 2015-09-10 11:13:51.995530 -- 4 objects 
+INFO:root:Render progress: COMPLETE -- client15 -- 2015-09-10 11:14:15.349909
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client16 -- 2015-09-10 11:19:51.317776 -- 4 objects 
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client17 -- 2015-09-10 11:20:31.456146 -- 4 objects 
+INFO:root:Render progress: COMPLETE -- client17 -- 2015-09-10 11:20:54.827550
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client0 -- 2015-09-10 11:21:11.006361 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client0 -- 2015-09-10 11:21:38.817140
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client1 -- 2015-09-10 11:22:09.173986 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client1 -- 2015-09-10 11:22:37.229775
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching main
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client2 -- 2015-09-10 12:54:27.139151 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client2 -- 2015-09-10 12:54:55.002706
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client5 -- 2015-09-10 12:56:26.064825 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client5 -- 2015-09-10 12:56:53.707107
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client6 -- 2015-09-10 12:57:19.378417 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client6 -- 2015-09-10 12:57:47.300724
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client6.png?Signature=STwuYfYVbn98BrrQDGchYZ%2FTXdA%3D&Expires=1441890168&AWSAccessKeyId=ASIAICZZELSOTPVYM2UA&x-amz-security-token=AQoDYXdzEKX//////////wEa4AN9MP7LvB/23uXvwa8Nf7DQSWykzWbUOSEv/En5peNWtL/ocEX6s6TieyuXpyhxcahx/WIystPGfEQXWgZsnQplflkmrXLxjipjdnBJdvKD1Ndvwz8mUhp4lbZ7ppneMMII/CHm6%2BwVylpPxeiOoDuQGFRgyb7F%2BAd53O271VLbEP/bVqfp5jgCAxeO%2BEZwGT7DiUgO9p43WQzNF2gpu2AfU/0FHDNENJDyQIIlgzVhDsCIbQWw6mAE0DsYuV1aiKXWDRI4/UPnhzIxf7uGd8/hPRTiiHmO%2BjD/uMtyzm/eKzLTgrfjDFAu8mQ6wwCde6jq2eOlQOiIK8RoufOgfPq9WIvx1md7Ux9UoDxKGBcBphqtOGeGyfw7hibXQaXVFrL3YTtzBZksmDvjjSa13VWuSHGhaxJMLE/snojysDxOLVfXi9vno1fMnW2HSp6ai8Rpsflbav3xO3Kd%2BcwcOCW0YmjNweyP4Eel2BKlGEmcQxXioZWFejj4csJTKIWyUCw42z31D%2BJVlD8mMS/%2BfkiJD%2BWgZIMRB33UTm%2B/2TxtZl7gamv7H8lQlkMCXEk4lNPNlKRs7HG3TaEo7T5%2BhE2U3ShvZlbLdg2FUETIrPFjcDpXoJvi7jIZigOntn3SN3Ygmd/FrwU%3D
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client7 -- 2015-09-10 13:01:51.134302 -- 5 objects 
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client8 -- 2015-09-10 13:02:33.324765 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client8 -- 2015-09-10 13:03:01.219254
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client8.png?Signature=T%2FK2fBvyiI9X1Ly0KXHBqbBQdfA%3D&Expires=1441890482&AWSAccessKeyId=ASIAIQT75TIDFIUSC6JQ&x-amz-security-token=AQoDYXdzEKb//////////wEa4ANvMOcZjsBglH0l5EIdcOBJfK3U4FoLy8IaJqj4nuS81pNPhG3XcgU7XenMJ2VGgO3152o/3VemKRWCP2cRr%2BuROFaMMy9VoqXBqYhAplsrXngtqV4lRJFd3vn0fRUVNk84NITaMDr8bN8AoUcmLhdtWMdSw4BkSkLJDzAeMM023/WZHbQ1i17fupIhBpXIyYekpeYaRYgRPM52vAQNAjzy/fx3cJ6BvTn7xOqq3GsK9ab6g6twEUl/bDHE0N2xGbNCQ5Gql6UN1nOT7HikF%2BlTLOVARsDdvDM3Dn5yMQGjGa6TLvhioPTqRN98s71Fn1muJi5SEjqQMyzWsVDIyQS%2BHT9zrpErt7O/kU86tNb9LjFfhlN5u7QMW3K3g9AKB%2BUhUIdcXJafOX79h9RMdil6141eqm%2B73n04uxyPPioodclTEoV6B6UyQhNRHx/KLbQi4HAgYZGyE7ve27vqpsLSvhBYRnMUEAC8Z/dIUmNyeU9JBZawhPfPDvB0BgSgws9tCEs580khFXf/G1uwVNUeZxlt2YLY9qc9KEUAOFd7AHZH5j9rhV6H518VHLo2aRiiyGS0GlCpucEgm%2B9zAFfFg9xpXGzZj9WBZNy%2BG3VOcZDoyQuTmF6uF/NFiF/34zYgyv3FrwU%3D
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client9 -- 2015-09-10 13:05:27.919252 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client9 -- 2015-09-10 13:05:55.594703
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client9.png?Signature=uVOzjh98gK88HsfDDxLzOCF6bAI%3D&Expires=1441890656&AWSAccessKeyId=ASIAIQT75TIDFIUSC6JQ&x-amz-security-token=AQoDYXdzEKb//////////wEa4ANvMOcZjsBglH0l5EIdcOBJfK3U4FoLy8IaJqj4nuS81pNPhG3XcgU7XenMJ2VGgO3152o/3VemKRWCP2cRr%2BuROFaMMy9VoqXBqYhAplsrXngtqV4lRJFd3vn0fRUVNk84NITaMDr8bN8AoUcmLhdtWMdSw4BkSkLJDzAeMM023/WZHbQ1i17fupIhBpXIyYekpeYaRYgRPM52vAQNAjzy/fx3cJ6BvTn7xOqq3GsK9ab6g6twEUl/bDHE0N2xGbNCQ5Gql6UN1nOT7HikF%2BlTLOVARsDdvDM3Dn5yMQGjGa6TLvhioPTqRN98s71Fn1muJi5SEjqQMyzWsVDIyQS%2BHT9zrpErt7O/kU86tNb9LjFfhlN5u7QMW3K3g9AKB%2BUhUIdcXJafOX79h9RMdil6141eqm%2B73n04uxyPPioodclTEoV6B6UyQhNRHx/KLbQi4HAgYZGyE7ve27vqpsLSvhBYRnMUEAC8Z/dIUmNyeU9JBZawhPfPDvB0BgSgws9tCEs580khFXf/G1uwVNUeZxlt2YLY9qc9KEUAOFd7AHZH5j9rhV6H518VHLo2aRiiyGS0GlCpucEgm%2B9zAFfFg9xpXGzZj9WBZNy%2BG3VOcZDoyQuTmF6uF/NFiF/34zYgyv3FrwU%3D
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client10 -- 2015-09-10 13:08:48.685564 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client10 -- 2015-09-10 13:09:16.534173
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client10.png?Signature=epTRd%2B6uBAmGkPTarOwwShKQMw0%3D&Expires=1441890857&AWSAccessKeyId=ASIAIQT75TIDFIUSC6JQ&x-amz-security-token=AQoDYXdzEKb//////////wEa4ANvMOcZjsBglH0l5EIdcOBJfK3U4FoLy8IaJqj4nuS81pNPhG3XcgU7XenMJ2VGgO3152o/3VemKRWCP2cRr%2BuROFaMMy9VoqXBqYhAplsrXngtqV4lRJFd3vn0fRUVNk84NITaMDr8bN8AoUcmLhdtWMdSw4BkSkLJDzAeMM023/WZHbQ1i17fupIhBpXIyYekpeYaRYgRPM52vAQNAjzy/fx3cJ6BvTn7xOqq3GsK9ab6g6twEUl/bDHE0N2xGbNCQ5Gql6UN1nOT7HikF%2BlTLOVARsDdvDM3Dn5yMQGjGa6TLvhioPTqRN98s71Fn1muJi5SEjqQMyzWsVDIyQS%2BHT9zrpErt7O/kU86tNb9LjFfhlN5u7QMW3K3g9AKB%2BUhUIdcXJafOX79h9RMdil6141eqm%2B73n04uxyPPioodclTEoV6B6UyQhNRHx/KLbQi4HAgYZGyE7ve27vqpsLSvhBYRnMUEAC8Z/dIUmNyeU9JBZawhPfPDvB0BgSgws9tCEs580khFXf/G1uwVNUeZxlt2YLY9qc9KEUAOFd7AHZH5j9rhV6H518VHLo2aRiiyGS0GlCpucEgm%2B9zAFfFg9xpXGzZj9WBZNy%2BG3VOcZDoyQuTmF6uF/NFiF/34zYgyv3FrwU%3D
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client11 -- 2015-09-10 13:10:40.371420 -- 5 objects 
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client12 -- 2015-09-10 13:11:30.147297 -- 5 objects 
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client13 -- 2015-09-10 13:12:09.650959 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client13 -- 2015-09-10 13:12:37.775098
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client13.png?Signature=dtQZdvEOqkmgDwhcBsUw%2FFLkdT0%3D&Expires=1441891059&AWSAccessKeyId=ASIAIQT75TIDFIUSC6JQ&x-amz-security-token=AQoDYXdzEKb//////////wEa4ANvMOcZjsBglH0l5EIdcOBJfK3U4FoLy8IaJqj4nuS81pNPhG3XcgU7XenMJ2VGgO3152o/3VemKRWCP2cRr%2BuROFaMMy9VoqXBqYhAplsrXngtqV4lRJFd3vn0fRUVNk84NITaMDr8bN8AoUcmLhdtWMdSw4BkSkLJDzAeMM023/WZHbQ1i17fupIhBpXIyYekpeYaRYgRPM52vAQNAjzy/fx3cJ6BvTn7xOqq3GsK9ab6g6twEUl/bDHE0N2xGbNCQ5Gql6UN1nOT7HikF%2BlTLOVARsDdvDM3Dn5yMQGjGa6TLvhioPTqRN98s71Fn1muJi5SEjqQMyzWsVDIyQS%2BHT9zrpErt7O/kU86tNb9LjFfhlN5u7QMW3K3g9AKB%2BUhUIdcXJafOX79h9RMdil6141eqm%2B73n04uxyPPioodclTEoV6B6UyQhNRHx/KLbQi4HAgYZGyE7ve27vqpsLSvhBYRnMUEAC8Z/dIUmNyeU9JBZawhPfPDvB0BgSgws9tCEs580khFXf/G1uwVNUeZxlt2YLY9qc9KEUAOFd7AHZH5j9rhV6H518VHLo2aRiiyGS0GlCpucEgm%2B9zAFfFg9xpXGzZj9WBZNy%2BG3VOcZDoyQuTmF6uF/NFiF/34zYgyv3FrwU%3D
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client0 -- 2015-09-10 13:16:01.893544 -- 5 objects 
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client1 -- 2015-09-10 13:23:14.806856 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client1 -- 2015-09-10 13:23:42.994949
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client1.png?Signature=i0keOh1Qn2c531u43c6YOz8beqg%3D&Expires=1441891724&AWSAccessKeyId=ASIAIQT75TIDFIUSC6JQ&x-amz-security-token=AQoDYXdzEKb//////////wEa4ANvMOcZjsBglH0l5EIdcOBJfK3U4FoLy8IaJqj4nuS81pNPhG3XcgU7XenMJ2VGgO3152o/3VemKRWCP2cRr%2BuROFaMMy9VoqXBqYhAplsrXngtqV4lRJFd3vn0fRUVNk84NITaMDr8bN8AoUcmLhdtWMdSw4BkSkLJDzAeMM023/WZHbQ1i17fupIhBpXIyYekpeYaRYgRPM52vAQNAjzy/fx3cJ6BvTn7xOqq3GsK9ab6g6twEUl/bDHE0N2xGbNCQ5Gql6UN1nOT7HikF%2BlTLOVARsDdvDM3Dn5yMQGjGa6TLvhioPTqRN98s71Fn1muJi5SEjqQMyzWsVDIyQS%2BHT9zrpErt7O/kU86tNb9LjFfhlN5u7QMW3K3g9AKB%2BUhUIdcXJafOX79h9RMdil6141eqm%2B73n04uxyPPioodclTEoV6B6UyQhNRHx/KLbQi4HAgYZGyE7ve27vqpsLSvhBYRnMUEAC8Z/dIUmNyeU9JBZawhPfPDvB0BgSgws9tCEs580khFXf/G1uwVNUeZxlt2YLY9qc9KEUAOFd7AHZH5j9rhV6H518VHLo2aRiiyGS0GlCpucEgm%2B9zAFfFg9xpXGzZj9WBZNy%2BG3VOcZDoyQuTmF6uF/NFiF/34zYgyv3FrwU%3D
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client2 -- 2015-09-10 13:25:11.546799 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client2 -- 2015-09-10 13:25:38.865091
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client2.png?Signature=qC3r3XBFcRks4ssrcqHOOW4QI3E%3D&Expires=1441891840&AWSAccessKeyId=ASIAIQT75TIDFIUSC6JQ&x-amz-security-token=AQoDYXdzEKb//////////wEa4ANvMOcZjsBglH0l5EIdcOBJfK3U4FoLy8IaJqj4nuS81pNPhG3XcgU7XenMJ2VGgO3152o/3VemKRWCP2cRr%2BuROFaMMy9VoqXBqYhAplsrXngtqV4lRJFd3vn0fRUVNk84NITaMDr8bN8AoUcmLhdtWMdSw4BkSkLJDzAeMM023/WZHbQ1i17fupIhBpXIyYekpeYaRYgRPM52vAQNAjzy/fx3cJ6BvTn7xOqq3GsK9ab6g6twEUl/bDHE0N2xGbNCQ5Gql6UN1nOT7HikF%2BlTLOVARsDdvDM3Dn5yMQGjGa6TLvhioPTqRN98s71Fn1muJi5SEjqQMyzWsVDIyQS%2BHT9zrpErt7O/kU86tNb9LjFfhlN5u7QMW3K3g9AKB%2BUhUIdcXJafOX79h9RMdil6141eqm%2B73n04uxyPPioodclTEoV6B6UyQhNRHx/KLbQi4HAgYZGyE7ve27vqpsLSvhBYRnMUEAC8Z/dIUmNyeU9JBZawhPfPDvB0BgSgws9tCEs580khFXf/G1uwVNUeZxlt2YLY9qc9KEUAOFd7AHZH5j9rhV6H518VHLo2aRiiyGS0GlCpucEgm%2B9zAFfFg9xpXGzZj9WBZNy%2BG3VOcZDoyQuTmF6uF/NFiF/34zYgyv3FrwU%3D
+INFO:root:launching nodejs version
+INFO:root:Render progress: BEGIN    -- client0 -- 2015-09-10 13:35:00.279532 -- 5 objects 
+INFO:root:Render progress: COMPLETE -- client0 -- 2015-09-10 13:35:27.832454
+INFO:root:Render -- http://nwen406-iddy-projectrender.s3.amazonaws.com/renders/client0.png?Signature=uogR86ANIKViwrqc0m3Dc%2Ff%2Bv9Q%3D&Expires=1441892429&AWSAccessKeyId=ASIAIQT75TIDFIUSC6JQ&x-amz-security-token=AQoDYXdzEKb//////////wEa4ANvMOcZjsBglH0l5EIdcOBJfK3U4FoLy8IaJqj4nuS81pNPhG3XcgU7XenMJ2VGgO3152o/3VemKRWCP2cRr%2BuROFaMMy9VoqXBqYhAplsrXngtqV4lRJFd3vn0fRUVNk84NITaMDr8bN8AoUcmLhdtWMdSw4BkSkLJDzAeMM023/WZHbQ1i17fupIhBpXIyYekpeYaRYgRPM52vAQNAjzy/fx3cJ6BvTn7xOqq3GsK9ab6g6twEUl/bDHE0N2xGbNCQ5Gql6UN1nOT7HikF%2BlTLOVARsDdvDM3Dn5yMQGjGa6TLvhioPTqRN98s71Fn1muJi5SEjqQMyzWsVDIyQS%2BHT9zrpErt7O/kU86tNb9LjFfhlN5u7QMW3K3g9AKB%2BUhUIdcXJafOX79h9RMdil6141eqm%2B73n04uxyPPioodclTEoV6B6UyQhNRHx/KLbQi4HAgYZGyE7ve27vqpsLSvhBYRnMUEAC8Z/dIUmNyeU9JBZawhPfPDvB0BgSgws9tCEs580khFXf/G1uwVNUeZxlt2YLY9qc9KEUAOFd7AHZH5j9rhV6H518VHLo2aRiiyGS0GlCpucEgm%2B9zAFfFg9xpXGzZj9WBZNy%2BG3VOcZDoyQuTmF6uF/NFiF/34zYgyv3FrwU%3D

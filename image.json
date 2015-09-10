@@ -1,0 +1,58 @@
+image = {
+  id:, // image name
+  ambient:,
+  gammaCorrection:,
+  dim_x:,
+  dim_y:,
+  lightSource: {"x":,"y":,"z":},
+  cameraPos: {"x":,"y":,"z":},
+  objects = [
+    { "type":"plane",
+      "point": {"x":,"y":,"z":},
+      "normal": {"x":,"y":,"z":},
+      "colour": {"x":,"y":,"z":}
+    },
+    { "type":"sphere",
+      "center": {"x":,"y":,"z":},
+      "radius":,
+      "colour": {"x":,"y":,"z":}
+    }
+  ],
+}
+
+image = {
+  'id': 'test01',
+  'ambient': 0.1,
+  'gammaCorrection': 1/2.2,
+  'dim_x': 500,
+  'dim_y': 500,
+  'lightSource': {'x':-10,'y':0,'z':0},
+  'cameraPos': {'x':0,'y':0,'z':20},
+  'objects': [
+    { 'type':'sphere',
+      'center': {'x':-2,'y':0,'z':-10},
+      'radius': 2.0,
+      'colour': {'x':0,'y':255,'z':0}
+    },
+    { 'type':'sphere',
+      'center': {'x':2,'y':0,'z':-10},
+      'radius': 2.5,
+      'colour': {'x':255,'y':0,'z':0}
+    },
+    { 'type':'sphere',
+      'center': {'x':0,'y':-4,'z':-10},
+      'radius': 3.0,
+      'colour': {'x':0,'y':0,'z':255}
+    },
+    { 'type':'plane',
+      'point': {'x':0,'y':0,'z':-12},
+      'normal': {'x':0,'y':0,'z':1},
+      'colour': {'x':255,'y':255,'z':255}
+    }
+  ],
+}
+
+image = "{id: "test01",ambient: 0.1,gammaCorrection: 1/2.2,dim_"x": 500,dim_"y": 500,lightSource: {"x":-10,"y":0,"z":0},cameraPos: {"x":0,"y":0,"z":20},objects = [{ "t"y"pe":"sphere","center": {"x":-2,"y":0,"z":-10},"radius": 2.0,"colour": {"x":0,"y":255,"z":0}},{ "t"y"pe":"sphere","center": {"x":2,"y":0,"z":-10},"radius": 2.5,"colour": {"x":255,"y":0,"z":0}},{ "t"y"pe":"sphere","center": {"x":0,"y":-4,"z":-10},"radius": 3.0,"colour": {"x":0,"y":0,"z":255}},{ "t"y"pe":"plane","point": {"x":0,"y":0,"z":-12},"normal": {"x":0,"y":0,"z":1},"colour": {"x":255,"y":255,"z":255}}],}"
+
+'{"id": "test01","ambient": 0.1,"gammaCorrection": 0.4545,"dim_x": 500,"dim_y": 500,"lightSource": {"x":-10,"y":0,"z":0},"cameraPos": {"x":0,"y":0,"z":20},"objects": [{ "type":"sphere","center": {"x":-2,"y":0,"z":-10},"radius": 2.0,"colour": {"x":0,"y":255,"z":0}},{ "type":"sphere","center": {"x":2,"y":0,"z":-10},"radius": 2.5,"colour": {"x":255,"y":0,"z":0}},{ "type":"sphere","center": {"x":0,"y":-4,"z":-10},"radius": 3.0,"colour": {"x":0,"y":0,"z":255}},{ "type":"plane","point": {"x":0,"y":0,"z":-12},"normal": {"x":0,"y":0,"z":1},"colour": {"x":255,"y":255,"z":255}}]}'
+"{'id': 'test01','ambient': 0.1,'gammaCorrection': 1/2.2,'dim_x': 500,'dim_y': 500,'lightSource': {'x':-10,'y':0,'z':0},'cameraPos': {'x':0,'y':0,'z':20},'objects' = [{ 'type':'sphere','center': {'x':-2,'y':0,'z':-10},'radius': 2.0,'colour': {'x':0,'y':255,'z':0}},{ 'type':'sphere','center': {'x':2,'y':0,'z':-10},'radius': 2.5,'colour': {'x':255,'y':0,'z':0}},{ 'type':'sphere','center': {'x':0,'y':-4,'z':-10},'radius': 3.0,'colour': {'x':0,'y':0,'z':255}},{ 'type':'plane','point': {'x':0,'y':0,'z':-12},'normal': {'x':0,'y':0,'z':1},'colour': {'x':255,'y':255,'z':255}}],}"
