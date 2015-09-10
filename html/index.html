@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Render Loader</title>
+<link rel='styles.css' type='text/css'>
 <script src="./jquery-1.11.3.min.js" charset="utf-8"></script>
 <script>
 // http://stackoverflow.com/a/133997
@@ -44,9 +45,10 @@ var testImage = {
     }
   ],
 }
-
+function displayImage(url) {
+  $('#images').prepend('<img width=\'100px\', height=\'100px\',src='+url+' />');
+}
 function post(path, render) {
-    var form = $('<form></form>');
     
     var data = {}
     data.id = count++;
@@ -58,8 +60,14 @@ function post(path, render) {
       url: path,
       data: JSON.stringify(data),
       success: function(res) {
-          console.log('POST success');
-          console.log(res);
+          if (res.error == false) {
+            console.log('POST success');
+            console.log(res);
+            displayImage(res.url);
+          }
+          else {
+            console.log('POST error');
+          }
       },
       dataType: 'json', 
       timeout: 120000,
@@ -69,33 +77,32 @@ function post(path, render) {
 var minVal = 1;
 var maxVal = 3600;
 function clickButton() {
-  testImage.id = 'client'+count;
-  post('http://52.88.173.59/render',JSON.stringify(testImage));
-  
+  var val = '';
+  try {
+    val = JSON.parse(document.getElementById('jsonarea').value);
+  }
+  catch(e) {
+    console.log('Parse error: '+e);
+    return;
+  }
+  testImage.id = 'client_'+count;
+  post('http://52.88.173.59/render',JSON.stringify(val));
+  // post('406-p2-1967633686.us-west-2.elb.amazonaws.com/render',JSON.stringify(testImage));
 }
-function renderExists() {
-  var id = 'client'+idnum;
-  
-  $.getJSON('/render/'+id);
-  
- // xhr.onloadend = function() { /* done */ }
-  console.log('GET sent: /render '+id);
-}
-function nextID() {
-  idnum++;
-  $('#nextid').text('NextID '+idnum);
-}
+$(document).ready(function() {
+  document.getElementById('jsonarea').value = JSON.stringify(testImage, null, 2)
+  document.getElementById('jsonarea').style.height = '300px';
+  document.getElementById('jsonarea').style.width = '650px';
+});
 </script>
 </head>
 <body>
 <h1>Render loader</h1>
 <div id='submit'>
   <button type='button' onclick='clickButton()'>Send</button>
-  <button type='button' onclick='renderExists()'>Check Image</button>
-  <button type='button' id='nextid' onclick='nextID()'>Next ID 0</button>
 </div>
 <div id='console'>
-
+<textarea id='jsonarea'></textarea>
 </div>
 <div id='images'>
 

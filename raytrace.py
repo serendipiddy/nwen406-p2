@@ -12,27 +12,6 @@ from boto.s3.connection import S3Connection
 from boto.s3.key import Key
 import cStringIO
 
-# conn = S3Connection()
-
-# # new object, need new key, unique to the bucket
-# k = Key(bucket)
-# k.key = 'foobar'
-# k.set_contents_from_string('test')
-
-# # steps
-# c = boto.connect_s3()
-# b = c.get_bucket('nwen406-iddy-projectrender')
-# k = Key(b)
-# k.key = 'foobar'
-# k.get_contents_as_string()
-# k.get_contents_from_filename('bar.jpg')
-
-# # check if exists
-# b.get_key('mykey')
-# b.get_key('mykey', validate=False) # no check
-
-
-
 logging.basicConfig(filename='render.log',level=logging.INFO)
 
 # Perhaps this is not the best named class; it really serves as just a 3-tuple most of the time. A mathematical
@@ -191,10 +170,8 @@ def save_to_s3(image, name):
   k.set_contents_from_string(out_img.getvalue())
   url = k.generate_url(expires_in=300, force_http=True)
   return(url)
-  
-  
 
-def nodejs(arg):
+def from_client(arg):
   AMBIENT = arg['ambient']
   GAMMA = arg['gammaCorrection']
   CAMERA = Vector(arg['cameraPos']['x'],arg['cameraPos']['y'],arg['cameraPos']['z'])
@@ -231,11 +208,11 @@ def nodejs(arg):
       
   logging.info('Render progress: COMPLETE -- %s -- %s' % (arg['id'],datetime.today()))
   print('Render progress: COMPLETE -- %s -- %s' % (arg['id'],datetime.today()))
+  # img.save("html/render/%s.png" % (arg['id']),"PNG")
   url = save_to_s3(img, arg['id'])
   sys.stderr.write('URL:'+url)
   sys.stderr.flush()
   logging.info('Render -- %s' % url)
-  # img.save("html/render/%s.png" % (arg['id']),"PNG")
 
 if __name__ == '__main__':
   if (len(sys.argv) == 1):
@@ -244,7 +221,7 @@ if __name__ == '__main__':
   elif (len(sys.argv) >= 2):
     logging.info('launching nodejs version')
     j = json.loads(sys.argv[1])
-    nodejs(j)
+    from_client(j)
   else:
     logging.info("Requires JSON object as argument")
     print("Requires JSON object as argument")
