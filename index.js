@@ -33,13 +33,14 @@ app.post('/render', function (req, res) { /* Receives the renderer information *
     return res.json({'message':error,'error':true});
   }
   
+  console.log('server: '+req.connection.localAddress);
   console.log(req.body.id+': submitting image render');
   render = child_process.spawn('/usr/bin/python27',['raytrace.py',req.body.render]);
   render.stderr.on( 'data', function(data) {
     var s = data.toString();
     if (s.substring(0,4) === 'URL:') {
       url = s.substring(4,s.length)
-      res.json({'id':req.body.id,'error':false,'url':url});
+      res.json({'id':req.body.id,'error':false,'url':url,'server':req.connection.localAddress});
       res.end();
     }
     else console.log('stderr: ' + s); 
@@ -48,7 +49,7 @@ app.post('/render', function (req, res) { /* Receives the renderer information *
     console.log(req.body.id+': completed '+req.body.id); 
     if (!res.finished) { 
       // something went wrong..
-      res.json({'id':req.body.id,'error':true});
+      res.json({'id':req.body.id,'error':true,'server':req.connection.localAddress});
       res.end();
     }
   });

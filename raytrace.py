@@ -11,6 +11,10 @@ import boto
 from boto.s3.connection import S3Connection
 from boto.s3.key import Key
 import cStringIO
+import os
+
+print os.environ.get('AWS_ACCESS_KEY_ID')
+print os.environ.get('AWS_SECRET_ACCESS_KEY')
 
 logging.basicConfig(filename='render.log',level=logging.INFO)
 
@@ -209,6 +213,7 @@ def from_client(arg):
   logging.info('Render progress: COMPLETE -- %s -- %s' % (arg['id'],datetime.today()))
   print('Render progress: COMPLETE -- %s -- %s' % (arg['id'],datetime.today()))
   # img.save("html/render/%s.png" % (arg['id']),"PNG")
+  sys.stderr.write('argid: %s' % arg['id'])
   url = save_to_s3(img, arg['id'])
   sys.stderr.write('URL:'+url)
   sys.stderr.flush()

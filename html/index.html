@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Render Loader</title>
-<link rel='styles.css' type='text/css'>
+<link rel='stylesheet' type='text/css' href='./styles.css'>
 <script src="./jquery-1.11.3.min.js" charset="utf-8"></script>
 <script>
 // http://stackoverflow.com/a/133997
@@ -46,7 +46,7 @@ var testImage = {
   ],
 }
 function displayImage(url) {
-  $('#images').prepend('<img width=\'100px\', height=\'100px\',src='+url+' />');
+  $('#images').prepend('<img width=\'200px\' height=\'200px\' src='+url+' />');
 }
 function post(path, render) {
     
@@ -86,8 +86,8 @@ function clickButton() {
     return;
   }
   testImage.id = 'client_'+count;
-  post('http://52.88.173.59/render',JSON.stringify(val));
-  // post('406-p2-1967633686.us-west-2.elb.amazonaws.com/render',JSON.stringify(testImage));
+  // post('http://52.88.173.59/render',JSON.stringify(val));
+  post('http://406-p2-1967633686.us-west-2.elb.amazonaws.com/render',JSON.stringify(val));
 }
 $(document).ready(function() {
   document.getElementById('jsonarea').value = JSON.stringify(testImage, null, 2)
